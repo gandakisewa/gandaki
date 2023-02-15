@@ -42,9 +42,16 @@
     <div class="navbar-header">
       
       <!-- Logo image added here -->
-      <a class="navbar-brand" href="#page-top">
-        <img src="img/logo.jpg" alt="Company Logo" style="width:80px;height:80px;">
-      </a>
+      <div class="navbar-brand-wrapper">
+        <a class="navbar-brand" href="#page-top">
+          <img src="img/logo.jpg" alt="Company Logo" style="width:80px;height:80px;">
+        </a>
+
+        <a class="navbar-brand page-scroll" href="#page-top">
+          Gandaki Nirman Sewa<br><br>
+          गण्डकी निर्माण सेवा
+        </a>
+      </div>
       
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
         <span class="sr-only">Toggle navigation</span> 
@@ -53,18 +60,39 @@
         <span class="icon-bar"></span> 
       </button>
       
-      <a class="navbar-brand page-scroll" href="#page-top">
-        Gandaki Nirman Sewa<br><br>
-        गण्डकी निर्माण सेवा
-      </a>
-      
       <div class="phone"><span>Call Today</span>+977 9856032133</div>
     </div>
 
   </div>
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+</nav>
+
+<!-- CSS code -->
+<style>
+  .navbar-brand-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+</style
+<!-- CSS code -->
+<style>
+  .navbar-brand-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+</style> <!-- close the style tag here -->
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">About</a></li>
         <li><a href="#services" class="page-scroll">Services</a></li>

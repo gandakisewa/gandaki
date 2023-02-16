@@ -12,8 +12,8 @@ $message = $_POST['message'];
 
 // Set your Zoho Mail settings
 $smtpHost = 'smtp.zoho.com';
-$smtpUsername = 'YOUR_EMAIL_ADDRESS';
-$smtpPassword = 'YOUR_EMAIL_PASSWORD';
+$smtpUsername = 'gandakinirmansewa@gmail.com';
+$smtpPassword = '9856032133@radha@123';
 $smtpPort = 465;
 $smtpSecure = 'ssl';
 

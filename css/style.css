@@ -509,6 +509,7 @@ color: #777;
   #header img {
     max-width: 100%;
     height: auto;
+    float: none; /* clear the float in mobile view */
   }
   
   #header h1 {
@@ -519,5 +520,20 @@ color: #777;
   
   #header nav {
     margin-top: 20px;
+  }
+}
+
+/* Add the following code to position the logo to the left in desktop view */
+#header img {
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+/* Add the following code to position the logo to the left in desktop view */
+@media (max-width: 768px) {
+  #header img {
+    margin-top: 10px; /* add a margin-top to move the logo up in mobile view */
   }
 }

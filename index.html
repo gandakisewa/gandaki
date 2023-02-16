@@ -350,6 +350,10 @@
     </div>
   </div>
 </div>
+Sure, here's an updated version of your HTML code that includes the correct action attribute for your form, pointing to your contact_me.php file:
+
+php
+Copy code
 <!-- Contact Section -->
 <div id="contact">
   <div class="container">
@@ -359,7 +363,7 @@
           <h2>Get In Touch</h2>
           <p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
         </div>
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="sentMessage" id="contactForm" method="post" action="contact_me.php" novalidate>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -383,6 +387,8 @@
         </form>
       </div>
     </div>
+  </div>
+</div>
     <div class="col-md-3 col-md-offset-1 contact-info">
       <div class="contact-item">
         <h4>Contact Info</h4>

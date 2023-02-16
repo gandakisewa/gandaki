@@ -528,12 +528,12 @@ color: #777;
   max-width: 100%;
   height: auto;
   float: left;
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 /* Add the following code to position the logo to the left in desktop view */
 @media (max-width: 768px) {
   #header img {
-    margin-top: 20px; /* add a margin-top to move the logo up in mobile view */
+    margin-top: 5px; /* add a margin-top to move the logo up in mobile view */
   }
 }

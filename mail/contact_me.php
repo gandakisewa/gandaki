@@ -12,7 +12,7 @@ $message = $_POST['message'];
 
 // Set your Zoho Mail settings
 $smtpHost = 'smtp.zoho.com';
-$smtpUsername = 'gandakinirmansewa@gmail.com';
+$smtpUsername = 'contact@gandakinirmansewa.org.np';
 $smtpPassword = '9856032133radha@123';
 $smtpPort = 465;
 $smtpSecure = 'ssl';
@@ -28,7 +28,7 @@ try {
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = $smtpHost;                              // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'gandakinirmansewa@gmail.com';                          // SMTP username
+    $mail->Username   = 'contact@gandakinirmansewa.org.np';                          // SMTP username
     $mail->Password   = '9856032133radha@123';                          // SMTP password
     $mail->SMTPSecure = $smtpSecure;                             // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = $smtpPort;                               // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above

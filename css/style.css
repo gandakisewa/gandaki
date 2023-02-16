@@ -135,7 +135,7 @@ hr {
 	background-color: #e52f3c;
 	height: 3px;
 	width: 50px;
-	bottom: 5px;
+	bottom: -1px;
 	left: 0;
 }
 .btn-custom {
